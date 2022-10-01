@@ -18,8 +18,12 @@ public class TestRedSocial {
         Twitter tw = new Twitter(2, "trabajando", fecha, "bbb", "e21");
         tw.metodoSobreescritura();
         System.out.println(tw.toString());
+        System.out.println("******POLIMORFISMO*****");
+        RedSocial rs = new Instagram(3, "polimorfo", true, "aaa", "123");
+        rs.metodoSobreescritura();
+        System.out.println(rs.toString());
         
-        
+        //List<RedSocial> lista = new ArrayList<>();
         
     }
     
